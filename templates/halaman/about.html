@@ -1,0 +1,53 @@
+{% extends 'halaman/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('{% static 'halaman/assets/img/bg9.jpg' %}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="title">About Us</h1>
+                    <h4> Pengrajin Sarung Asli Samarinda :)</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main main-raised">
+    <div class="container">
+        <div class="about-team team-1">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h2 class="title">Sedikit Cerita Tentang Asaliun</h2>
+                    <h5 class="description">Asalinun adalah Pengerajin Sarung Samarinda Asli yang berlokasi di Jl.Pangeran Bendahara Gg. Karya Muharram No.44, Kec. Samarinda Seberang. Asalinun  merupakan salah satu mitra yang aktif dalam bidang ekonomi produktif di wilayah samarinda. Profil mitra ini mencerminkan karakteristik usaha yang berkontribusi pada perekonomian lokal. Asalinun telah beroperasi sejak tahun 1987, Asalinun menawarkan berbagai jenis sarung asli Samarinda.</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card card-profile card-plain">
+                        <div class="card-avatar">
+                            <a href="#pablo">
+                                <img class="img" src="{% static 'halaman/assets/img/faces/christian.jpg' %}" />
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h4 class="card-title">Muhammad Rahman Hidayat</h4>
+                            <h6 class="category text-muted">Direktur Utama</h6>
+
+                            <p class="card-description">
+                                Jika ada yang ingin tanyakan. Anda bisa menghubungi kontak saya yang ada di bawah ini, Terimakasih!!
+                            </p>
+                            <div class="footer">
+                                <a href="https://wa.me/+6281238552131" class="btn btn-just-icon btn-simple btn-whatsapp"><i class="fa fa-whatsapp"></i></a>
+                                <a href="https://www.instagram.com/asalinun?igsh=b3ZmZmJuZWU5bnB3" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
