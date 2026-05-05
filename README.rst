@@ -1,18 +1,19 @@
-# E-Arsip Web
+# Manto News – Portal Berita & Katalog Produk
 
 ## Deskripsi
-Aplikasi berbasis web untuk mengelola dan mengarsipkan dokumen secara digital.
+Manto News adalah aplikasi web yang berfungsi sebagai portal berita sekaligus katalog produk. Sistem ini memungkinkan pengguna untuk mengakses informasi berita serta melihat produk dalam satu platform.
 
 ## Fitur
-- Login & autentikasi pengguna
-- Manajemen user (CRUD)
-- Pengelolaan arsip dokumen
-- Digitalisasi dokumen
+- Manajemen artikel berita
+- Dashboard admin
+- Sistem login & autentikasi
+- Katalog produk
+- Pengelolaan konten
 
 ## Teknologi
-- PHP (CodeIgniter)
+- Python (Django)
 - MySQL
 - HTML, CSS
 
 ## Tujuan
-Meningkatkan efisiensi dan keamanan dalam pengelolaan dokumen.
+Menyediakan platform informasi dan promosi produk berbasis web yang terintegrasi.
